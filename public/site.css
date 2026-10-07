@@ -1,0 +1,115 @@
+:root {
+  --dark: #2d2d2d;
+  --light: #f0f0f0;
+  --peach: #ecc0ac;
+  --orange: #e9754b;
+  --mint: #b3e1e8;
+  --lilac: #d7ccf2;
+  --grey: #c0c0c0;
+  --bar-height: 64px;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; height: 100%; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--light);
+  color: var(--dark);
+}
+
+/* Header bar: dark background, so peach is allowed here. */
+.bar {
+  height: var(--bar-height);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 24px;
+  background: var(--dark);
+  color: var(--light);
+}
+
+.brand { font-weight: 700; font-size: 20px; letter-spacing: -0.02em; color: var(--peach); }
+.brand-dot { color: var(--orange); }
+
+.client {
+  font-weight: 500;
+  padding-left: 16px;
+  border-left: 1px solid #555;
+}
+
+.switcher { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+.switcher label { font-size: 13px; color: var(--grey); }
+
+.switcher select,
+.switcher button {
+  font: inherit;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--peach);
+  background: var(--dark);
+  color: var(--light);
+  cursor: pointer;
+}
+
+.report {
+  display: block;
+  width: 100%;
+  height: calc(100% - var(--bar-height));
+  border: 0;
+  background: var(--light);
+}
+
+/* Login and message pages */
+.login {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+  background: var(--dark);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 380px;
+  padding: 32px;
+  border-radius: 16px;
+  background: var(--light);
+}
+
+.login-card .brand { color: var(--dark); }
+.login-card h1 { font-size: 22px; margin: 16px 0 8px; }
+.login-card p { margin: 0 0 16px; line-height: 1.5; }
+.login-card label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+
+.login-card input {
+  width: 100%;
+  font: inherit;
+  padding: 10px 12px;
+  border: 1px solid var(--grey);
+  border-radius: 8px;
+  background: var(--light);
+  margin-bottom: 16px;
+}
+
+.login-card button {
+  width: 100%;
+  font: inherit;
+  font-weight: 600;
+  padding: 12px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--dark);
+  color: var(--peach);
+  cursor: pointer;
+}
+
+.error { color: #b3401c; font-weight: 500; }
+
+@media (max-width: 600px) {
+  .bar { padding: 0 16px; gap: 10px; }
+  .client { display: none; }
+  .switcher label { display: none; }
+}
