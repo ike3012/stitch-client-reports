@@ -1,0 +1,14 @@
+{
+  "name": "stitch-client-reports",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Private monthly report site for Stitch clients",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "token": "node scripts/new-token.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
