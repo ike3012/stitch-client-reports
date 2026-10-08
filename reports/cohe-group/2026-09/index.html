@@ -1,0 +1,155 @@
+<!doctype html><html lang="en-NZ"><head>
+<meta name="robots" content="noindex, nofollow, noarchive"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Cohe Group September Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light;
+--peach:#ECC0AC;--brand-orange:#E9754B;--ink:#2D2D2D;--ink-secondary:#5a5a5a;--ink-muted:#7c7c7c;--hairline:#e2e2e2;--surface:#ffffff;--page:#F0F0F0;--cell-bg:#F6F6F6;
+--meta-badge-bg:#B3E1E8;--meta-badge-text:#1f4d57;--google-badge-bg:#D7CCF2;--google-badge-text:#3f3370;--all-badge-bg:#C0C0C0;--all-badge-text:#2D2D2D;
+--good-bg:#D7F9E6;--good-text:#1F5C46;--warn-bg:#FEF9C8;--warn-text:#80501D;--critical-bg:#FBE3E3;--critical-text:#8C3232;
+--card-blue-bg:#DCEFF2;--card-purple-bg:#ECE6F9;--card-grey-bg:#ECECEC;--card-blue-text:#1f4d57;--mast-bg:#2D2D2D;
+--font:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--ink:#F0F0F0;--ink-secondary:#c4c4c4;--ink-muted:#9a9a9a;--hairline:#444;--surface:#2D2D2D;--page:#1e1e1e;--cell-bg:#363636;
+--meta-badge-bg:#1f4d57;--meta-badge-text:#B3E1E8;--google-badge-bg:#3f3370;--google-badge-text:#D7CCF2;--all-badge-bg:#4a4a4a;--all-badge-text:#F0F0F0;
+--good-bg:#1d4a38;--good-text:#b5f0d2;--warn-bg:#4a4418;--warn-text:#f3e3a0;--critical-bg:#5a2a2a;--critical-text:#f6c4c4;
+--card-blue-bg:#2F4447;--card-purple-bg:#3B3550;--card-grey-bg:#3A3A3A;--card-blue-text:#B3E1E8;--mast-bg:#161616}}
+:root[data-theme="dark"]{color-scheme:dark;--ink:#F0F0F0;--ink-secondary:#c4c4c4;--ink-muted:#9a9a9a;--hairline:#444;--surface:#2D2D2D;--page:#1e1e1e;--cell-bg:#363636;
+--meta-badge-bg:#1f4d57;--meta-badge-text:#B3E1E8;--google-badge-bg:#3f3370;--google-badge-text:#D7CCF2;--all-badge-bg:#4a4a4a;--all-badge-text:#F0F0F0;
+--good-bg:#1d4a38;--good-text:#b5f0d2;--warn-bg:#4a4418;--warn-text:#f3e3a0;--critical-bg:#5a2a2a;--critical-text:#f6c4c4;
+--card-blue-bg:#2F4447;--card-purple-bg:#3B3550;--card-grey-bg:#3A3A3A;--card-blue-text:#B3E1E8;--mast-bg:#161616}
+body{margin:0;background:var(--page);color:var(--ink);font-family:var(--font);font-size:14px;line-height:1.45;padding:24px 16px}
+img{max-width:100%}
+.doc{max-width:900px;margin:0 auto;background:var(--surface);border-radius:14px;padding:40px 48px 56px;overflow:hidden}
+.mast{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;background:var(--mast-bg);color:#F0F0F0;margin:-40px -48px 28px;padding:28px 48px}
+.logo{color:#ECC0AC;font-weight:800;font-size:32px;letter-spacing:-.03em;line-height:1}
+.mast .r{text-align:right}.mast .r b{display:block;font-size:16px;color:#F0F0F0}.mast .r span{color:#C0C0C0;font-size:12px}
+.sec{margin-top:36px}
+.head{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+.badge{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:4px 10px;border-radius:999px}
+.badge.meta{background:var(--meta-badge-bg);color:var(--meta-badge-text)}.badge.google{background:var(--google-badge-bg);color:var(--google-badge-text)}.badge.all{background:var(--all-badge-bg);color:var(--all-badge-text)}
+.head h2{font-size:18px;margin:0}
+.summary{background:var(--cell-bg);border-radius:12px;padding:16px 20px}
+.summary ul{margin:0;padding-left:18px}.summary li{margin:5px 0}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--hairline);border-radius:12px;overflow:hidden}
+.kpi{padding:14px 16px;border-left:1px solid var(--hairline);min-width:0}.kpi:first-child{border-left:0}
+.kpi .l{font-size:10.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-muted);font-weight:600}
+.kpi .v{font-size:25px;font-weight:700;margin-top:4px;font-variant-numeric:tabular-nums}
+.kpi .c{font-size:11.5px;color:var(--ink-muted);min-height:16px}
+.kpi .d{margin-top:6px;font-size:11.5px;color:var(--ink-secondary)}
+.pill{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11.5px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill.good{background:var(--good-bg);color:var(--good-text)}.pill.warn{background:var(--warn-bg);color:var(--warn-text)}.pill.critical{background:var(--critical-bg);color:var(--critical-text)}
+h3{font-size:13px;margin:22px 0 8px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-secondary)}
+.tw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:12.5px}
+th{text-align:right;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-muted);font-weight:600;padding:8px;border-bottom:1px solid var(--hairline);white-space:nowrap}
+td{text-align:right;padding:10px 8px;border-bottom:1px solid var(--hairline);white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal;min-width:150px}
+td.n{font-weight:700}.muted{color:var(--ink-muted);font-size:11.5px}
+tr.tot td{font-weight:700;border-top:1.5px solid var(--hairline)}
+.note{font-size:12px;color:var(--ink-secondary);margin:10px 0 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{border:1px solid var(--hairline);border-radius:12px;overflow:hidden;background:var(--surface);min-width:0}
+.card.top{border:1.5px solid var(--brand-orange)}
+.art{position:relative;aspect-ratio:1/1;display:flex;align-items:flex-end}
+.art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.rank{position:absolute;top:8px;right:8px;background:var(--brand-orange);color:#2D2D2D;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px}
+.fmt{position:relative;margin:0 0 8px 8px;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--card-blue-text);background:var(--surface);padding:2px 7px;border-radius:999px}
+.body{padding:10px 10px 12px}.body b{display:block;font-size:13px;margin-bottom:8px}
+.mc{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.mc div{background:var(--cell-bg);border-radius:8px;padding:6px 8px}.mc i{display:block;font-style:normal;font-size:9.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-muted)}.mc span{font-size:13px;font-weight:700;font-variant-numeric:tabular-nums}
+.foot{margin-top:8px;font-size:10.5px;color:var(--ink-muted)}
+.footer{margin-top:48px;text-align:right;color:var(--ink-muted);font-size:11.5px}
+@media(max-width:760px){.doc{padding:24px 18px 36px}.mast{margin:-24px -18px 22px;padding:22px 18px}.mast .r{text-align:left}.kpis{grid-template-columns:1fr 1fr}.kpi:nth-child(3){border-left:0}.kpi:nth-child(n+3){border-top:1px solid var(--hairline)}.grid{grid-template-columns:1fr 1fr}}
+@media(max-width:420px){.grid{grid-template-columns:1fr}}
+</style></head><body>
+<div class="doc">
+<div class="mast"><div class="logo">stitch</div><div class="r"><b>Cohe Group, Monthly Performance Report</b><span>1 to 30 September 2026 vs 1 to 31 August 2026</span></div></div>
+<div id="summary" class="sec" style="margin-top:0"></div>
+<div id="meta" class="sec"></div>
+<div id="google" class="sec"></div>
+<div class="footer">Private &amp; Confidential<br>www.stitchtech.co</div>
+</div>
+<script>
+const IMG={pools:"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3OTAxMDAwMGJkMDEwMDAwMTkwMjAwMDAyYTAyMDAwMDM3MDIwMDAwNTYwMjAwMDBmYzAyMDAwMDE2MDMwMDAwMzgwMzAwMDA0YjAzMDAwMDc5MDQwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEQAAAMBAQEAAAAAAAAAAAAAAAABAwIEBRAAAgIBAgMHBAIDAAAAAAAAAAERITFBURBhcQISgZGhwdEDIDDhE/AiQLH/2gAMAwEAAgADAAAAAazeb+Z28vXwp3yoMwtUa7OS3Nk9DnnQcljTWubv5goZQV0YRueRkqZ0G4djCvPuaaV8MjSNhf/aAAgBAQABBQJxw7veP42L6bPqKCODUiOyORf4jsSjg1R3jA+1wgkakwI7QyCR9k70ETw7PbGx9smSDuneE5JRJPBqB8Oz9Ov4x9hndZBp2hKTvD7R3jvD7QnX/9oACAEDAAE/AfsZP4K4/wD/2gAIAQIAAT8B/wBD/9oACAEBAAY/Avttflj8ODHHJX4a4Y4Y+2fw5+zqf//aAAgBAQABPyF5KhZE+PSB6a39CO/kZDzBI8eRGxnCpZHzG1kly/MeE+XuPqZqGSsKZIZSJostBNk89JE0srpBTHSShAUXBGTyWaM8GNOhEkRaSEaIdIaq8SIzoN1tCGTVAk0QJXqTy6RWqEKGscA32Xkc6R0M8keZ1GbyQOkw29vHbqbMeuq/vyUUFu+jEaE8sZHB02hz3Dbf+5E2G3AySwn0eB//2gAMAwEAAgADAAAAEIbwWZ551zN0YiF6H//aAAgBAwABPxArmVH74eQt4VwZO/gY1PfhEvmP0a7lcxH/2gAIAQIAAT8QFxRHBPjHCS+P/9oACAEBAAE/EMquIm4HV8JVmSr0rYhvbqJqZZ3bZYnQnDikyjJJUrZd/BLNnzbJekNQEjlqQp2amGhchZpXOXyPkNy5Vn4hj2y92SpQZv6mwihtSSEo11yxq/Jo3qNZmOTyHaHvUkh0hj0lHqQyeBZWdx8vVoJXyaF8jTHqzJ1Ep/KFLHUKfdsSkOtxNFuFX7RKhrzXsSq0NeY4o+jYUcpV115k64OsyRklFvdDC/AHVPOzQoPGH7DbSPVk3KyqpHDUOrbMFQdAq2PA9RXlfCNtnJcgjs3epmKVSdaU+d1kX81st6ORiLUcuUr8xNNtaW3Tik99k8zqEyYVNZ7McSnUKv0Ld/gMjHA6ZWk+cIrE6VT5df8ApFt5euufdZyBk1vFeI4yVJPAvWWD/9k=",roofing:"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3ZjAxMDAwMGQyMDEwMDAwNDgwMjAwMDA1ZDAyMDAwMDZlMDIwMDAwY2IwMjAwMDA3NTAzMDAwMDhmMDMwMDAwYWMwMzAwMDBjNTAzMDAwMGE0MDQwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEoAAAEFAQAAAAAAAAAAAAAAAAMAAQIEBQYQAAIBAQQGCgEFAQAAAAAAAAABESECMUFhAxAgUXGRBBITMoGhscHh8NEFFBUi8TD/2gAMAwEAAgADAAAAAblc4JDybtG+n0CDIKTRnFkq9sJh41t76lEpoBnGBIpEGSJhbe5w+3Ge7g2M5nyWgdljVeaRVsHwYp+jhzrMus6ThO5Uf//aAAgBAQABBQJsbOkd3R91bD1dI7ui7iGLWzTr+mi7ivexBpdE7dnR6C31extluy1s9CHZkVmDptpI66Ostf7h6BaLplq3Z/dM0ukdst3sfTrA+notdM6xY/UOqv5Jj/UjQ9K7W07J2Z2Z2R2Z2Z2Z0Omk66P/2gAIAQMAAT8B/wCUknUOqdUt5H//2gAIAQIAAT8B1PYexB1dn//aAAgBAQAGPwLVa+4os8Nu19xLPDbtcPdFnht2lZTtOPdFn+juH/VlVGza8CpT0LJeX67Vqyl4icKqLlqXHVi/ApZfMh2acRJWLszueZ3PMsrqxqvLy8vLy8VS8//aAAgBAQABPyFu98xm8blB5b6Ht1IeozyXsE5P0GrG4uFzUxDlIE5P0KGzjUw1NDGBYBKWC6mlpMBTZLAoLmI1NEZl6vD3GPJxkY8l9ZlYvB+xkjKcym4ayJcFLsnAYNUDxxPqMYpukbiV7eg8Cdz8IvVmOXH8EQmjLMQSQkL6RkPrgN3PrgMfXk3zcuBMR3OfwR3eZlTmPK5jyufwR3efwLWJCTxyHu3M/9oADAMBAAIAAwAAABCQqwVXlZA0tLKU2of/2gAIAQMAAT8QNwtSN2wnCIkdz5/Gt4SEqEU8z//aAAgBAgABPxBmHjsMNhBUcfl8kooUEj//2gAIAQEAAT8Q+TPybw5sk4HUdJVcA6SKJVfcioU5FdSCnfcLzUiVcC43wpHeLQyBCoajheFm8hqUFSoTlkuJnsbHKRjq9hbwJpvRwSyGaOFQXKBNVFBpEDRmDzuYyXujEo4dTd34ildV3fkw9j+rUukqzwlIT1PkBr/IRh5R44LkiqmB4sacnKVHmIfs9SPW7SzX3yNEwC5XY4DEbUKJwX4PICAelDXkEn5DUKeucewy/RB24WZ/2A+XAoBKosYYiNTEjKJPq9CDvX1kVY+7w1Gb4RGOD3LyKRV3kP/Z",ultraflex:"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QCEUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGgcAigAYkZCTUQwYTAwMGE3YzAxMDAwMGNjMDEwMDAwM2MwMjAwMDA0OTAyMDAwMDU3MDIwMDAwOTYwMjAwMDA0MTAzMDAwMDViMDMwMDAwNmUwMzAwMDA3ZjAzMDAwMDgzMDQwMDAwAP/bAIQABgcHDQkNDAwMDBENDg0REREQEBERExASERIQExMUExUVExQTFBMXFxcTFBUXGRkXFRccGxwXGxkZGx4bHhsbFgEGBgYLCAsKCwsKDQkLCQ0MDAoKDAwPCwwLDAsPEA4NDg4NDhAODQ0KDQ0ODw4QEA4PEAwODBAPEBAPFxkXFxfB/8IAEQgAQABAAwEiAAIRAQMRAf/EAEcAAAIDAQEAAAAAAAAAAAAAAAABAwQFAgYQAAIBAgIHCAMAAwAAAAAAAAABESExAlEDECBBYXHwEhMUgZGhsdEwwfEEguH/2gAMAwEAAgADAAAAAZ+s3qWLRMzlGxY86D9KeXSPM2/QW+jF2n2KOjeweXf0JLjMortk7rgoaN3KC/v+X0WqF3NtLqbmGIXdzC0gmpdQNf/aAAgBAQABBQLZTENniMJ36PEHiDxJ4lniWd/iLHZxsw6FndncYTHhwp4sCR4dRh0cCUDqPFB3ppcSZKwJvYk0p2dAaTT4WSJkkkjfaH/jpmDRdh6NmhxtqSSTR6RN94do0GkbNGySRmjUEjcGiaP/2gAIAQMAAT8B/G9n/9oACAECAAE/AdiNtbP/2gAIAQEABj8C2pnXYsWLFtj7FLvr9BdnCsc9ZiojLl96lw1YXuZCx4Oz/tJh9NrBzL/IuxXbuSmX/A9l62f/2gAIAQEAAT8h2E9S1amt+MGn9jUochB5aRNvXsQ2lXFu7XFo+RV9Mlx+hL1QXE9RuTlxRV83XkWwmVDyu58hmk2p5V4nAcj9qiLF9lR836IDeSm2Q4JEUZn1KHaOk+5CgTxFEoQqVrY4JJJOpKYOEq0jNr3qBGWcWlVNJKgzRUs59VFMJUQxs3OotEgbWRUWb2CzZK49yF6IcCo+Au19SAwmtUq80haTqT//2gAMAwEAAgADAAAAEALuBoMUkNuxVfN/Xf/aAAgBAwABPxDUidvqhZrsbj//2gAIAQIAAT8QnVcjWf4e8//aAAgBAQABPxBIROqAUhCdqm6kCJoxqbUuVuodGiVC6OSEOLm/oZk5z/0do30Qv2Kq9AqyiOmZFRK6G7yRv/LpFLnOLeL5Vev8GnPX6EYh5ghHFUMIQz0XXL7wp3Kq6S4llCEVfPe570Vqpnf1NyRzAds2QhnVOoyJIiIxrMSuIqhFefKEU+orlO8pLIVd7HIdLamQepUGYUbjPwKx9tl/BAY7po38PiyH9EM/cTvr53M1KVX8NsYCZm35kuLxVuJJd7jc2Sm+5w5DL60HDpCWTlkypQrW2UHuOWckywN9yMyG1eaw0y+B9ECWnFKcByzVLJbho6b3j1Q9Nu4Iolbp2P/Z"};
+// Meta: account 1623691548588971 (Cohe Group NZ), campaign "Cohe | Leadgen", leads = website leads (pixel lead event)
+const M={cur:{spend:3263.04,impr:158247,reach:55998,clicks:2692,link:1308,lpv:1072,leads:52},prev:{spend:2729.86,impr:160587,reach:57483,clicks:2599,link:1199,lpv:989,leads:50}};
+const MS=[
+{n:"Pools",img:"pools",cur:{spend:781.37,impr:52263,link:449,leads:20},prev:{spend:619.39,impr:55753,link:463,leads:20}},
+{n:"Roofing",img:"roofing",cur:{spend:1195.17,impr:56806,link:424,leads:18},prev:{spend:1540.58,impr:81277,link:548,leads:22}},
+{n:"UltraFlex Pro",img:"ultraflex",cur:{spend:1286.50,impr:49178,link:435,leads:14},prev:{spend:569.89,impr:23557,link:188,leads:8}}];
+// Google: customer 520-549-9807, lead form submits only (SUBMIT_LEAD_FORM)
+const GC=[
+{n:"Search-Leads-Roof_Solutions",t:"Search",cur:{spend:1518.792878,impr:5515,clicks:538,lfs:6.25965},prev:{spend:1522.267799,impr:5819,clicks:480,lfs:10}},
+{n:"Performance Max - Leads - Roof Coating",t:"Performance Max",cur:{spend:1521.690932,impr:28984,clicks:1223,lfs:15.253882},prev:{spend:1522.09357,impr:29875,clicks:1100,lfs:23}},
+{n:"Performance Max - DuraFinish Pool System",t:"Performance Max",cur:{spend:1521.586499,impr:67580,clicks:1144,lfs:5},prev:{spend:1516.655019,impr:19900,clicks:673,lfs:12}}];
+// Conversions by action (Google), per campaign: [form, phone, email, purchase]
+const CT=[{k:"form",l:"Website lead",a:"form_submission"},{k:"phone",l:"Phone click",a:"contact_click_phone"},{k:"email",l:"Email click",a:"contact_click_email"},{k:"purch",l:"Purchase",a:"purchase"}];
+const GX={
+"Search-Leads-Roof_Solutions":{cur:[6.25965,17.2,13,1],prev:[10,19.023215,5,0]},
+"Performance Max - Leads - Roof Coating":{cur:[15.253882,27.732694,18.5,4],prev:[23,25.167979,24.993066,3.333334]},
+"Performance Max - DuraFinish Pool System":{cur:[5,86,160.5,0],prev:[12,10,3,0.666666]}};
+const sum=(a,k,w)=>a.reduce((s,r)=>s+r[w][k],0);
+const G={cur:{},prev:{}};["spend","impr","clicks","lfs"].forEach(k=>{G.cur[k]=sum(GC,k,"cur");G.prev[k]=sum(GC,k,"prev")});
+const $=v=>"$"+v.toLocaleString("en-NZ",{minimumFractionDigits:2,maximumFractionDigits:2});
+const N=v=>Math.round(v).toLocaleString("en-NZ");
+const D1=v=>(Math.round(v*10)/10).toLocaleString("en-NZ",{minimumFractionDigits:1,maximumFractionDigits:1});
+const P=v=>(v*100).toFixed(2)+"%";
+const pd=(c,p)=>p?((c-p)/p)*100:null;
+const dl=x=>{if(x===null)return"n/a";const r=Math.round(x*10)/10||0;return(r>=0?"+":"")+r.toFixed(1)+"%"};
+const plain=(c,p)=>dl(pd(c,p))+" vs Aug";
+function pill(c,p,inv){const x=pd(c,p);if(x===null)return"";let k="warn";if(Math.abs(x)>=5){k=((x>0)!==!!inv)?"good":"critical"}return `<span class="pill ${k}">${dl(x)}</span>`}
+function kpis(t){return `<div class="kpis">${t.map(k=>`<div class="kpi"><div class="l">${k[0]}</div><div class="v">${k[1]}</div><div class="c">${k[2]||""}</div><div class="d">${k[3]}</div></div>`).join("")}</div>`}
+// SUMMARY
+(function(){
+const mc=M.cur,mp=M.prev,gc=G.cur,gp=G.prev;
+const tc={spend:mc.spend+gc.spend,leads:mc.leads+gc.lfs},tp={spend:mp.spend+gp.spend,leads:mp.leads+gp.lfs};
+const best=[...MS].sort((a,b)=>(a.cur.spend/a.cur.leads)-(b.cur.spend/b.cur.leads))[0];
+const ux=MS.find(s=>s.n==="UltraFlex Pro");
+let h=`<div class="head"><span class="badge all">Summary</span><h2>September at a glance</h2></div><div class="summary"><ul>
+<li>Total spend ${$(tc.spend)} NZD across Meta and Google (${dl(pd(tc.spend,tp.spend))} vs August), producing ${D1(tc.leads)} leads at ${$(tc.spend/tc.leads)} per lead (August: ${D1(tp.leads)} at ${$(tp.spend/tp.leads)}).</li>
+<li>Meta delivered ${mc.leads} website leads at ${$(mc.spend/mc.leads)} each (${dl(pd(mc.leads,mp.leads))} leads, ${dl(pd(mc.spend/mc.leads,mp.spend/mp.leads))} cost per lead). ${best.n} was the most efficient ad set at ${$(best.cur.spend/best.cur.leads)} per lead.</li>
+<li>Meta spend moved towards UltraFlex Pro (${$(ux.cur.spend)}, up from ${$(ux.prev.spend)}), which lifted its leads from ${ux.prev.leads} to ${ux.cur.leads} but at a higher cost per lead.</li>
+<li>Google spend held flat at ${$(gc.spend)}, but lead form submits fell from ${D1(gp.lfs)} to ${D1(gc.lfs)}, so cost per submit rose to ${$(gc.spend/gc.lfs)}. All three Google campaigns are spending close to their full budget.</li>
+</ul></div>
+<h3>Spend, leads and cost per lead by channel</h3><div class="tw"><table><tr><th>Channel</th><th>Spend</th><th>Leads</th><th>Cost / lead</th><th>Spend (vs Aug)</th><th>Leads (vs Aug)</th><th>CPL (vs Aug)</th></tr>
+<tr><td>Meta Ads<div class="muted">Website leads</div></td><td>${$(mc.spend)}</td><td class="n">${mc.leads}</td><td>${$(mc.spend/mc.leads)}</td><td>${dl(pd(mc.spend,mp.spend))}</td><td>${pill(mc.leads,mp.leads)}</td><td>${pill(mc.spend/mc.leads,mp.spend/mp.leads,true)}</td></tr>
+<tr><td>Google Ads<div class="muted">Lead form submits</div></td><td>${$(gc.spend)}</td><td class="n">${D1(gc.lfs)}</td><td>${$(gc.spend/gc.lfs)}</td><td>${dl(pd(gc.spend,gp.spend))}</td><td>${pill(gc.lfs,gp.lfs)}</td><td>${pill(gc.spend/gc.lfs,gp.spend/gp.lfs,true)}</td></tr>
+<tr class="tot"><td>Total</td><td>${$(tc.spend)}</td><td>${D1(tc.leads)}</td><td>${$(tc.spend/tc.leads)}</td><td>${dl(pd(tc.spend,tp.spend))}</td><td>${pill(tc.leads,tp.leads)}</td><td>${pill(tc.spend/tc.leads,tp.spend/tp.leads,true)}</td></tr></table></div>`;
+document.getElementById("summary").innerHTML=h})();
+// META
+(function(){
+const c=M.cur,p=M.prev,cc=c.spend/c.leads,cp=p.spend/p.leads;
+let h=`<div class="head"><span class="badge meta">Meta Ads</span><h2>Facebook &amp; Instagram</h2></div>`;
+h+=kpis([["Spend",$(c.spend),"NZD",plain(c.spend,p.spend)],["Impressions",N(c.impr),"Reach "+N(c.reach),plain(c.impr,p.impr)],["Leads",N(c.leads),"Website leads",pill(c.leads,p.leads)+" vs Aug"],["Cost per lead",$(cc),"CTR "+P(c.clicks/c.impr),pill(cc,cp,true)+" vs Aug"]]);
+h+=`<h3>Ad sets (campaign: Cohe | Leadgen)</h3><div class="tw"><table><tr><th>Ad set</th><th>Spend</th><th>Impr.</th><th>Link clicks</th><th>Leads</th><th>Cost / lead</th><th>Spend (vs Aug)</th><th>Leads (vs Aug)</th><th>CPL (vs Aug)</th></tr>`;
+MS.forEach(r=>{const a=r.cur,b=r.prev,x=a.spend/a.leads,y=b.spend/b.leads;
+h+=`<tr><td>${r.n}</td><td>${$(a.spend)}</td><td>${N(a.impr)}</td><td>${N(a.link)}</td><td class="n">${a.leads}</td><td>${$(x)}</td><td>${dl(pd(a.spend,b.spend))}</td><td>${pill(a.leads,b.leads)}</td><td>${pill(x,y,true)}</td></tr>`});
+const lc=sum(MS,"link","cur"),lp=sum(MS,"link","prev");
+h+=`<tr class="tot"><td>Total</td><td>${$(c.spend)}</td><td>${N(c.impr)}</td><td>${N(lc)}</td><td>${c.leads}</td><td>${$(cc)}</td><td>${dl(pd(c.spend,p.spend))}</td><td>${pill(c.leads,p.leads)}</td><td>${pill(cc,cp,true)}</td></tr></table></div>`;
+h+=`<p class="note">Landing page views: ${N(c.lpv)} in September vs ${N(p.lpv)} in August. Frequency held steady at about 2.8.</p>`;
+h+=`<h3>Ad performance</h3>`;
+const ads=[...MS].sort((a,b)=>b.cur.leads-a.cur.leads||b.cur.spend-a.cur.spend);
+const bgs=["blue","purple","grey"];
+h+=`<div class="grid">`+ads.map((s,i)=>{const a=s.cur;
+return `<div class="card${i===0?" top":""}"><div class="art" style="background:var(--card-${bgs[i]}-bg)"><img src="${IMG[s.img]}" alt="${s.n} ad creative">${`<span class="rank">#${i+1}</span>`}<span class="fmt">Dynamic</span></div><div class="body"><b>${s.n}</b><div class="mc"><div><i>Spend</i><span>${$(a.spend)}</span></div><div><i>Leads</i><span>${a.leads}</span></div><div><i>CPL</i><span>${$(a.spend/a.leads)}</span></div><div><i>CTR (link)</i><span>${P(a.link/a.impr)}</span></div></div><div class="foot">${N(a.impr)} impr. · ${N(a.link)} link clicks</div></div></div>`}).join("")+`</div>`;
+h+=`<p class="note">Each ad set runs one dynamic ad, ranked by leads. Meta only supplies a small preview frame for these dynamic ads.</p>`;
+document.getElementById("meta").innerHTML=h})();
+// GOOGLE
+(function(){
+const c=G.cur,p=G.prev,cc=c.spend/c.lfs,cp=p.spend/p.lfs;
+let h=`<div class="head"><span class="badge google">Google Ads</span><h2>Search &amp; Performance Max</h2></div>`;
+h+=kpis([["Spend",$(c.spend),"NZD",plain(c.spend,p.spend)],["Clicks",N(c.clicks),"CTR "+P(c.clicks/c.impr),plain(c.clicks,p.clicks)],["Lead form submits",D1(c.lfs),"",pill(c.lfs,p.lfs)+" vs Aug"],["Cost per lead form submit",$(cc),"",pill(cc,cp,true)+" vs Aug"]]);
+h+=`<h3>Campaigns</h3><div class="tw"><table><tr><th>Campaign</th><th>Spend</th><th>Impr.</th><th>Clicks</th><th>CTR</th><th>Lead form submits</th><th>Cost / submit</th><th>Spend (vs Aug)</th><th>Submits (vs Aug)</th><th>Cost (vs Aug)</th></tr>`;
+GC.forEach(r=>{const a=r.cur,b=r.prev,x=a.spend/a.lfs,y=b.spend/b.lfs;
+h+=`<tr><td>${r.n}<div class="muted">${r.t}</div></td><td>${$(a.spend)}</td><td>${N(a.impr)}</td><td>${N(a.clicks)}</td><td>${P(a.clicks/a.impr)}</td><td class="n">${D1(a.lfs)}</td><td>${$(x)}</td><td>${dl(pd(a.spend,b.spend))}</td><td>${pill(a.lfs,b.lfs)}</td><td>${pill(x,y,true)}</td></tr>`});
+h+=`<tr class="tot"><td>Total</td><td>${$(c.spend)}</td><td>${N(c.impr)}</td><td>${N(c.clicks)}</td><td>${P(c.clicks/c.impr)}</td><td>${D1(c.lfs)}</td><td>${$(cc)}</td><td>${dl(pd(c.spend,p.spend))}</td><td>${pill(c.lfs,p.lfs)}</td><td>${pill(cc,cp,true)}</td></tr></table></div>`;
+h+=`<p class="note">The headline lead form submit figure counts the website form submission action only. Every conversion type is split out below.</p>`;
+const tot=w=>CT.map((t,i)=>Object.values(GX).reduce((s,r)=>s+r[w][i],0));
+const tc=tot("cur"),tp=tot("prev");
+h+=`<h3>Conversions by type</h3><div class="tw"><table><tr><th>Conversion type</th><th>September</th><th>August</th><th>Change</th></tr>`+CT.map((t,i)=>`<tr><td>${t.l}<div class="muted">Cohe Group - GA4 (web) ${t.a}</div></td><td class="n">${D1(tc[i])}</td><td>${D1(tp[i])}</td><td>${pill(tc[i],tp[i])}</td></tr>`).join("")+`<tr class="tot"><td>All conversions</td><td>${D1(tc.reduce((a,b)=>a+b))}</td><td>${D1(tp.reduce((a,b)=>a+b))}</td><td>${dl(pd(tc.reduce((a,b)=>a+b),tp.reduce((a,b)=>a+b)))}</td></tr></table></div>`;
+h+=`<h3>Conversions by type and campaign, September (August in brackets)</h3><div class="tw"><table><tr><th>Campaign</th>${CT.map(t=>`<th>${t.l}</th>`).join("")}<th>Total</th></tr>`+GC.map(r=>{const x=GX[r.n];return `<tr><td>${r.n}<div class="muted">${r.t}</div></td>${x.cur.map((v,i)=>`<td><b>${D1(v)}</b> <span class="muted">(${D1(x.prev[i])})</span></td>`).join("")}<td class="n">${D1(x.cur.reduce((a,b)=>a+b))} <span class="muted">(${D1(x.prev.reduce((a,b)=>a+b))})</span></td></tr>`}).join("")+`<tr class="tot"><td>Total</td>${tc.map((v,i)=>`<td>${D1(v)} <span class="muted">(${D1(tp[i])})</span></td>`).join("")}<td>${D1(tc.reduce((a,b)=>a+b))} <span class="muted">(${D1(tp.reduce((a,b)=>a+b))})</span></td></tr></table></div>`;
+h+=`<p class="note">Phone and email clicks are taps on the phone number or email address on the website, not confirmed calls or emails. DuraFinish Pool System drove most of September's jump in these clicks (246.5, up from 13) while its website leads fell from 12 to 5. Purchases are GA4 web purchases. Decimals come from Google's data-driven attribution, which can split one conversion across campaigns.</p>`;
+document.getElementById("google").innerHTML=h})();
+</script></body></html>

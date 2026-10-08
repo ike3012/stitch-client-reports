@@ -37,12 +37,15 @@ npm start                                           # http://localhost:3000/r/<t
 
 ## Add a client
 
-1. Create `reports/<client-slug>/client.json` with `{ "name": "Client Name" }`. Use lowercase letters, numbers and dashes for the slug.
+1. Create `reports/<client-slug>/client.json` with the client's name and Windsor accounts (see MONTHLY.md). Use lowercase letters, numbers and dashes for the slug.
 2. Add their first month (see below).
 3. Run `npm run token` and set `CLIENT_<SLUG>_TOKEN` in Railway. Optionally set `CLIENT_<SLUG>_PASSWORD`.
 4. Commit, push and let Railway redeploy. Send the client `https://<domain>/r/<token>/`.
 
 ## Add a month
+
+See [MONTHLY.md](MONTHLY.md) for the full monthly run (data pull, checks, review). The short version:
+
 
 1. Create `reports/<client-slug>/YYYY-MM/index.html`. It must be fully self-contained: inline CSS, inline or CDN scripts, images embedded as data URIs or hosted publicly.
 2. Include `<meta name="robots" content="noindex, nofollow">` in the head. The server adds it if missing, but keep it in the file.
