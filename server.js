@@ -203,8 +203,9 @@ ${body}
 </html>`;
 }
 
-function brandMark() {
-  return '<span class="brand">Stitch<span class="brand-dot">.</span></span>';
+// Peach logo on dark backgrounds, dark logo on light ones.
+function brandMark(variant = 'dark') {
+  return `<img class="brand" src="/assets/stitch-logo-${variant}.png" alt="Stitch" width="289" height="78">`;
 }
 
 function reportPage(client, months, month, base) {
@@ -214,7 +215,7 @@ function reportPage(client, months, month, base) {
   return layout({
     title: `${client.name} | ${monthLabel(month)} report | Stitch`,
     body: `<header class="bar">
-  ${brandMark()}
+  ${brandMark('peach')}
   <span class="client">${escapeHtml(client.name)}</span>
   <form class="switcher" method="get" action="${base}/go">
     <label for="month">Report</label>
@@ -281,6 +282,8 @@ function notFound(res) {
 const ASSETS = {
   'site.css': 'text/css; charset=utf-8',
   'switcher.js': 'text/javascript; charset=utf-8',
+  'stitch-logo-dark.png': 'image/png',
+  'stitch-logo-peach.png': 'image/png',
 };
 
 const SHELL_CSP =

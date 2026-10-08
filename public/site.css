@@ -30,8 +30,7 @@ body {
   color: var(--light);
 }
 
-.brand { font-weight: 700; font-size: 20px; letter-spacing: -0.02em; color: var(--peach); }
-.brand-dot { color: var(--orange); }
+.brand { display: block; height: 28px; width: auto; }
 
 .client {
   font-weight: 500;
@@ -79,7 +78,7 @@ body {
   background: var(--light);
 }
 
-.login-card .brand { color: var(--dark); }
+.login-card .brand { height: 32px; }
 .login-card h1 { font-size: 22px; margin: 16px 0 8px; }
 .login-card p { margin: 0 0 16px; line-height: 1.5; }
 .login-card label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
