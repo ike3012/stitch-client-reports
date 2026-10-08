@@ -1,3 +1,11 @@
 {
-  "name": "Xtracta"
+  "name": "Xtracta",
+  "sources": {
+    "windsor": {
+      "facebook": "1435519981388339",
+      "google_ads": "321-003-1543",
+      "linkedin": "500605833",
+      "googleanalytics4": "319120725"
+    }
+  }
 }

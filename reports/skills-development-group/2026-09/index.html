@@ -1,0 +1,148 @@
+<!doctype html><html><head>
+<meta name="robots" content="noindex, nofollow, noarchive"><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Skills Development Group September Report</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap">
+<style>
+/* Layout: single light-grey page, dark masthead band with peach wordmark, channel sections as white panels (no peach on white) */
+:root{--dark:#2D2D2D;--light:#F0F0F0;--peach:#ECC0AC;--orange:#E9754B;--mint:#B3E1E8;--lilac:#D7CCF2;--grey:#C0C0C0;
+--bg:#F0F0F0;--panel:#FFFFFF;--fg:#2D2D2D;--fg2:#5a5a5a;--muted:#8a8a8a;--line:#e2e2e2;--cell:#F6F6F6;
+--head-bg:#2D2D2D;--head-fg:#F0F0F0;--head-accent:#ECC0AC;
+--li-bg:#DCEAFB;--li-fg:#0A4F99;--g-bg:#FDF2C9;--g-fg:#8a4d12;
+--good-bg:#D7F9E6;--good-fg:#1F5C46;--warn-bg:#FEF9C8;--warn-fg:#80501D;--bad-bg:#FBE3E3;--bad-fg:#8C3232;
+--art:#E4E1EE;--art-fg:#5b4e8f;--font:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1f1f1f;--panel:#2D2D2D;--fg:#F0F0F0;--fg2:#c4c4c4;--muted:#9a9a9a;--line:#444;--cell:#383838;--head-bg:#2D2D2D;--li-bg:#23384f;--li-fg:#9cc8f5;--g-bg:#4a4020;--g-fg:#f0d98a;--good-bg:#1f4a38;--good-fg:#a8ecc8;--warn-bg:#4d4620;--warn-fg:#f0e08a;--bad-bg:#5a2a2a;--bad-fg:#f5b5b5;--art:#3d3850;--art-fg:#D7CCF2;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1f1f1f;--panel:#2D2D2D;--fg:#F0F0F0;--fg2:#c4c4c4;--muted:#9a9a9a;--line:#444;--cell:#383838;--head-bg:#2D2D2D;--li-bg:#23384f;--li-fg:#9cc8f5;--g-bg:#4a4020;--g-fg:#f0d98a;--good-bg:#1f4a38;--good-fg:#a8ecc8;--warn-bg:#4d4620;--warn-fg:#f0e08a;--bad-bg:#5a2a2a;--bad-fg:#f5b5b5;--art:#3d3850;--art-fg:#D7CCF2;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:14px;line-height:1.5;padding-inline:16px;padding-block:24px}
+.wrap{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:24px}
+.mast{background:var(--head-bg);color:var(--head-fg);border-radius:14px;padding:28px 32px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+.logo{font-weight:800;font-size:32px;letter-spacing:-.02em;color:var(--head-accent);line-height:1}
+.mast h1{margin:0;font-size:20px;font-weight:600;text-align:right}
+.mast .sub{color:#c4c4c4;font-size:12.5px;text-align:right}
+.sec{background:var(--panel);border-radius:14px;padding:28px 32px;display:flex;flex-direction:column;gap:20px;min-width:0}
+.head{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.badge{font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:99px}
+.b-li{background:var(--li-bg);color:var(--li-fg)}.b-g{background:var(--g-bg);color:var(--g-fg)}.b-s{background:var(--mint);color:var(--dark)}
+h2{margin:0;font-size:18px;font-weight:600}
+h3{margin:0;font-size:13px;font-weight:600;color:var(--fg2);text-transform:uppercase;letter-spacing:.06em}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.kpi{padding:16px 18px;border-left:1px solid var(--line);min-width:0}.kpi:first-child{border-left:0}
+.kpi .l{font-size:10.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.kpi .v{font-size:25px;font-weight:800;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+.kpi .c{font-size:11.5px;color:var(--muted);min-height:17px}
+.kpi .d{margin-top:6px;font-size:12px;display:flex;gap:6px;align-items:center;flex-wrap:wrap;color:var(--fg2)}
+.pill{display:inline-block;padding:1px 8px;border-radius:99px;font-size:12px;font-weight:600;white-space:nowrap}
+.good{background:var(--good-bg);color:var(--good-fg)}.warn{background:var(--warn-bg);color:var(--warn-fg)}.bad{background:var(--bad-bg);color:var(--bad-fg)}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font-size:13px}
+th{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);text-align:right;font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal;min-width:190px}
+tr.tot td{font-weight:700;border-top:2px solid var(--fg)}
+.nd{color:var(--muted);font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.card{border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;background:var(--panel);min-width:0}
+.card.top{border:1.5px solid var(--orange)}
+.art{background:var(--art);color:var(--art-fg);height:120px;display:flex;align-items:center;justify-content:center;position:relative}
+.rank{position:absolute;top:8px;right:8px;background:var(--orange);color:#fff;font-size:11px;font-weight:800;padding:2px 8px;border-radius:99px}
+.fmt{position:absolute;left:10px;bottom:8px;font-size:11px;font-weight:600}
+.cb{padding:12px;display:flex;flex-direction:column;gap:8px}
+.cb b{font-size:13px;line-height:1.3}
+.set{font-size:11.5px;color:var(--muted)}
+.mini{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.mini div{background:var(--cell);border-radius:8px;padding:6px 8px}
+.mini span{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.mini strong{font-size:14px;font-variant-numeric:tabular-nums}
+.foot{font-size:11.5px;color:var(--muted)}
+ul.sum{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.note{font-size:12.5px;color:var(--fg2)}
+.footer{text-align:right;font-size:12px;color:var(--muted)}
+.tag{display:inline-block;background:var(--lilac);color:var(--dark);font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:99px;margin-left:6px}
+@media(max-width:700px){.kpis{grid-template-columns:1fr 1fr}.kpi:nth-child(3){border-left:0}.kpi:nth-child(n+3){border-top:1px solid var(--line)}.sec,.mast{padding:20px}.mast h1,.mast .sub{text-align:left}}
+</style>
+<div class="wrap">
+<div class="mast"><div class="logo">stitch</div><div><h1>Skills Development Group</h1><div class="sub">Monthly report · September 2026 vs August 2026 · NZD</div><div class="sub">Sep 1 to Sep 30, 2026 (data to date) vs Aug 1 to Aug 31, 2026</div></div></div>
+<div class="sec" id="sum"><div class="head"><span class="badge b-s">Summary</span><h2>September at a glance</h2></div><ul class="sum" id="sumlist"></ul></div>
+<div class="sec" id="li"></div>
+<div class="sec" id="g"></div>
+<div class="footer">Private &amp; Confidential<br>www.stitchtech.co</div>
+</div>
+<script>
+const LI_SETS=[
+{n:'Native Form NZ AI',s:[3143.12,3068.6241],i:[55511,52520],c:[311,260],l:[79,67]},
+{n:'Native Form AU',s:[3453.53,3411.4065],i:[53806,50215],c:[345,312],l:[127,124]}];
+// [Aug, Sep] ; creatives per ad set
+const LI_ADS=[
+{n:'Final AI Adoption Gap (PDF)',set:'Native Form AU',s:[3303.0828,3264.7134],i:[51229,47825],c:[330,298],l:[123,119]},
+{n:'Final AI Adoption Gap (PDF)',set:'Native Form NZ AI',s:[2636.8384,2883.4312],i:[47304,49425],c:[267,245],l:[74,63]},
+{n:'Foundations of AI and Ethics Course Overview',set:'Native Form NZ AI',s:[506.2816,185.1929],i:[8207,3095],c:[44,15],l:[5,4]},
+{n:'Foundations of AI and Ethics Course Overview NZ',set:'Native Form AU',s:[82.0926,105.0098],i:[1375,1679],c:[10,11],l:[3,3]},
+{n:'Stop Delivering Projects. Start Delivering Products.',set:'Native Form AU',s:[68.3546,41.6833],i:[1202,711],c:[5,3],l:[1,2]}];
+const M=1e6;
+// Google Ads: name,status,[augSpendMicros,sepSpendMicros],impr,clicks,lead form submits
+const G=[
+['Demand Gen - AU','Paused',[1915097314,224380413],[99696,11207],[817,66],[0,0]],
+['Performance Max - AU','Paused',[2265459694,74153578],[6699,83],[348,10],[7.0,0]],
+['Performance Max - NZ','Paused',[1545818713,153430144],[12597,1541],[389,22],[3,1]],
+['Demand Gen - NZ','Paused',[1080618865,123831938],[61033,2660],[473,16],[0,0]],
+['Search - NZ - Brand - Skills DG','Enabled',[84162089,237546267],[360,782],[66,111],[2.2,1]],
+['Search - AU - Brand - Skills DG','Enabled',[80172247,281571873],[374,683],[43,83],[0,5]],
+['Search - AU - Business Analysis','Paused',[183833648,29721285],[689,104],[64,13],[0,0]],
+['Search - NZ - Business Analysis','Paused',[159929850,17630000],[668,87],[59,4],[0,1]],
+['Search - AU - AI Training Courses','Paused',[184624974,26230000],[656,97],[56,8],[0,0]],
+['Search - NZ - AI Training Courses','Paused',[159106902,24220000],[554,77],[51,7],[1,0]],
+['Search - NZ - Agile Training Courses','Paused',[160363619,19520000],[440,43],[64,8],[2.8,0]],
+['Search - AU - Agile Training Courses','Paused',[188559184,19110000],[519,124],[32,3],[0,0]],
+['Search - NZ - Sales','Paused',[88237734,14080000],[362,54],[42,5],[0,0]]];
+const GT=[
+['Contact Us Form',7.0,5],['Course Enquiry',7.0,3],['Webinar Registration Form',2.0,0]];
+const $=id=>document.getElementById(id);
+const f0=n=>Math.round(n).toLocaleString('en-NZ'),f1=n=>n.toLocaleString('en-NZ',{minimumFractionDigits:1,maximumFractionDigits:1});
+const m=n=>'$'+n.toLocaleString('en-NZ',{minimumFractionDigits:2,maximumFractionDigits:2});
+const pc=(c,p)=>p?((c-p)/p*100):null;
+const dtxt=(c,p)=>{const d=pc(c,p);return d===null?'new':(d>0?'+':'')+d.toFixed(1)+'%'};
+function pill(c,p,inv){const d=pc(c,p);if(d===null)return '<span class="pill warn">new</span>';const good=inv?d<0:d>0;let cls=Math.abs(d)<5?'warn':(good?'good':'bad');return `<span class="pill ${cls}">${d>0?'+':''}${d.toFixed(1)}%</span>`}
+const plain=(c,p)=>`<span>${dtxt(c,p)} vs Aug</span>`;
+const sum=a=>a.reduce((x,y)=>x+y,0);
+const col=(rows,k,j)=>sum(rows.map(r=>r[k][j]));
+// LinkedIn
+const L={s:[0,1].map(j=>col(LI_SETS,'s',j)),i:[0,1].map(j=>col(LI_SETS,'i',j)),c:[0,1].map(j=>col(LI_SETS,'c',j)),l:[0,1].map(j=>col(LI_SETS,'l',j))};
+const Lcpl=L.l.map((l,j)=>L.s[j]/l),Lctr=L.c.map((c,j)=>c/L.i[j]*100);
+function kpi(l,v,c,d){return `<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="c">${c||''}</div><div class="d">${d}</div></div>`}
+let h=`<div class="head"><span class="badge b-li">LinkedIn Ads</span><h2>Native lead form campaigns</h2></div>
+<div class="kpis">${kpi('Spend',m(L.s[1]),'NZD',plain(L.s[1],L.s[0]))}${kpi('Leads',f0(L.l[1]),'Native form leads',pill(L.l[1],L.l[0])+' vs Aug')}${kpi('Cost per lead',m(Lcpl[1]),'Avg',pill(Lcpl[1],Lcpl[0],true)+' vs Aug')}${kpi('CTR',Lctr[1].toFixed(2)+'%',f0(L.c[1])+' clicks',pill(Lctr[1],Lctr[0])+' vs Aug')}</div>
+<h3>Ad sets</h3><div class="tw"><table><thead><tr><th>Ad set</th><th>Spend</th><th>Δ</th><th>Impr.</th><th>Clicks</th><th>CTR (vs Aug)</th><th>Leads</th><th>Δ Leads</th><th>CPL (vs Aug)</th></tr></thead><tbody>`;
+LI_SETS.forEach(r=>{const ct=r.c.map((c,j)=>c/r.i[j]*100),cp=r.s.map((s,j)=>s/r.l[j]);h+=`<tr><td><b>${r.n}</b></td><td>${m(r.s[1])}</td><td>${dtxt(r.s[1],r.s[0])}</td><td>${f0(r.i[1])}</td><td>${f0(r.c[1])}</td><td>${ct[1].toFixed(2)}% ${pill(ct[1],ct[0])}</td><td><b>${r.l[1]}</b></td><td>${pill(r.l[1],r.l[0])}</td><td>${m(cp[1])} ${pill(cp[1],cp[0],true)}</td></tr>`});
+h+=`<tr class="tot"><td>Total</td><td>${m(L.s[1])}</td><td>${dtxt(L.s[1],L.s[0])}</td><td>${f0(L.i[1])}</td><td>${f0(L.c[1])}</td><td>${Lctr[1].toFixed(2)}%</td><td>${L.l[1]}</td><td>${pill(L.l[1],L.l[0])}</td><td>${m(Lcpl[1])}</td></tr></tbody></table></div>
+<h3>Whitepaper and creative performance by ad set</h3><div class="grid">`;
+const ads=[...LI_ADS].sort((a,b)=>b.l[1]-a.l[1]||b.s[1]-a.s[1]);
+const doc='<svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor"><path d="M6 2h8l5 5v15H6zM14 2v5h5" opacity=".9"/><rect x="8.5" y="11" width="8" height="1.6" fill="#fff"/><rect x="8.5" y="14.5" width="8" height="1.6" fill="#fff"/></svg>';
+ads.forEach((a,k)=>{const cp=a.s.map((s,j)=>s/a.l[j]),ct=a.c.map((c,j)=>c/a.i[j]*100);
+h+=`<div class="card${k<3?' top':''}"><div class="art">${doc}${k<3?`<span class="rank">#${k+1}</span>`:''}<span class="fmt">Document</span></div><div class="cb"><b>${a.n}</b><span class="set">${a.set}</span><div class="mini"><div><span>Spend</span><strong>${m(a.s[1])}</strong></div><div><span>Leads</span><strong>${a.l[1]}</strong></div><div><span>CPL</span><strong>${m(cp[1])}</strong></div><div><span>CTR</span><strong>${ct[1].toFixed(2)}%</strong></div></div><div class="foot">Aug: ${a.l[0]} leads at ${m(cp[0])} CPL · ${f0(a.i[1])} impr., ${f0(a.c[1])} clicks ${pill(a.l[1],a.l[0])}</div></div></div>`});
+h+=`</div><p class="note">LinkedIn did not return preview images for these native document ads, so each card uses a document icon in place of the thumbnail. Ranked by September leads.</p>`;
+$('li').innerHTML=h;
+// Google
+const GS=[0,1].map(j=>sum(G.map(r=>r[2][j]/M))),GI=[0,1].map(j=>sum(G.map(r=>r[3][j]))),GC=[0,1].map(j=>sum(G.map(r=>r[4][j]))),GL=[0,1].map(j=>sum(G.map(r=>r[5][j])));
+const GCPL=GS.map((s,j)=>GL[j]?s/GL[j]:null),GCTR=GC.map((c,j)=>c/GI[j]*100);
+let g=`<div class="head"><span class="badge b-g">Google Ads</span><h2>Search, Demand Gen and Performance Max</h2></div>
+<div class="kpis">${kpi('Spend',m(GS[1]),'NZD',plain(GS[1],GS[0]))}${kpi('Lead form submits',f1(GL[1]),'Lead form submits only',pill(GL[1],GL[0])+' vs Aug')}${kpi('Cost per submit',m(GCPL[1]),'Avg',pill(GCPL[1],GCPL[0],true)+' vs Aug')}${kpi('Clicks',f0(GC[1]),'CTR '+GCTR[1].toFixed(2)+'%',plain(GC[1],GC[0]))}</div>
+<h3>Campaigns</h3><div class="tw"><table><thead><tr><th>Campaign</th><th>Spend</th><th>Δ</th><th>Impr.</th><th>Clicks</th><th>CTR</th><th>Submits Aug</th><th>Submits Sep</th><th>Cost / submit</th></tr></thead><tbody>`;
+G.forEach(r=>{const s=r[2][1]/M,ct=r[3][1]?(r[4][1]/r[3][1]*100).toFixed(2)+'%':'–';g+=`<tr><td><b>${r[0]}</b><span class="tag">${r[1]}</span></td><td>${m(s)}</td><td>${dtxt(r[2][1],r[2][0])}</td><td>${f0(r[3][1])}</td><td>${f0(r[4][1])}</td><td>${ct}</td><td>${f1(r[5][0])}</td><td><b>${f1(r[5][1])}</b></td><td>${r[5][1]?m(s/r[5][1]):'–'}</td></tr>`});
+g+=`<tr class="tot"><td>Total</td><td>${m(GS[1])}</td><td>${dtxt(GS[1],GS[0])}</td><td>${f0(GI[1])}</td><td>${f0(GC[1])}</td><td>${GCTR[1].toFixed(2)}%</td><td>${f1(GL[0])}</td><td>${f1(GL[1])}</td><td>${m(GCPL[1])}</td></tr></tbody></table></div>
+<p class="note">Only the two Brand search campaigns (NZ and AU) are still enabled. Every other campaign was paused during September, so spend and volume fell sharply against August. "Paused" shows the campaign status on 30 September.</p>
+<h3>Lead form submits by type</h3><div class="tw"><table><thead><tr><th>Conversion action</th><th>Aug</th><th>Sep</th><th>Δ</th></tr></thead><tbody>`;
+GT.forEach(t=>{g+=`<tr><td><b>${t[0]}</b></td><td>${f1(t[1])}</td><td>${f1(t[2])}</td><td>${pill(t[2],t[1])}</td></tr>`});
+g+=`</tbody></table></div><p class="note">Website purchase conversions (3 in September, NZ$6,072 conversion value, on the NZ Brand and AU Business Analysis campaigns) are not counted as lead form submits.</p>`;
+$('g').innerHTML=g;
+// Summary
+const tS=[0,1].map(j=>L.s[j]+GS[j]),tL=[0,1].map(j=>L.l[j]+GL[j]);
+$('sumlist').innerHTML=[
+`Combined spend was <b>${m(tS[1])}</b> across LinkedIn and Google Ads, ${dtxt(tS[1],tS[0])} on August, almost entirely because Google Ads was scaled back.`,
+`LinkedIn delivered <b>${L.l[1]} leads</b> at <b>${m(Lcpl[1])}</b> each (${dtxt(L.l[1],L.l[0])} leads, CPL ${dtxt(Lcpl[1],Lcpl[0])}) on spend ${dtxt(L.s[1],L.s[0])}.`,
+`The Final AI Adoption Gap whitepaper drove ${Math.round((119+63)/L.l[1]*100)}% of LinkedIn leads; the AU ad set alone produced 119 of ${L.l[1]}.`,
+`Google Ads recorded <b>${f1(GL[1])} lead form submits</b> vs ${f1(GL[0])} in August at ${m(GCPL[1])} per submit (${dtxt(GCPL[1],GCPL[0])}). Spend fell ${dtxt(GS[1],GS[0]).replace('-','')} after 11 of 13 campaigns were paused.`,
+`Lead volume on Google Ads is now coming from the Brand search campaigns (6 of 8 submits), so September efficiency reflects branded demand, not new audience prospecting.`
+].map(x=>`<li>${x}</li>`).join('');
+</script>
+
+</body></html>
